@@ -1,0 +1,9 @@
+[Unit]
+Description=Recent file manager
+
+[Service]
+Type=simple
+User=amos
+ExecStart=/home/amos/go/bin/recent listen /home/amos/Downloads /home/amos/Documents/pdfs /home/amos/Documents/ppts /home/amos/Documents/docs /home/amos/Videos/Screencasts
+[Install]
+WantedBy=multi-user.target

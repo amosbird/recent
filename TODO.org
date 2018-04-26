@@ -1,0 +1,7 @@
+#+TITLE: TODO
+
+* TODO add config file
+
+1. [ ] directories
+
+2. [ ] file filters
